@@ -27,7 +27,7 @@
 
         </header>
 
-        <div class="kutu"> <!-- OMG! -->
+        <div class="kutu">
 
             <div class="mesaj">
                 <i><b>5 adet girdinizi sağ tarafa ekledikten sonra "Gönder" butonuna basınız.</b></i>
