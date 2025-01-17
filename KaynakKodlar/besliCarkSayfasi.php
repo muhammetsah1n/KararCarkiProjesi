@@ -27,7 +27,7 @@
 
         </header>
 
-        <div class="kutu"> <!-- OMG! -->
+        <div class="kutu"> 
 
             <div class="container">
 
@@ -48,7 +48,7 @@
 
         </div>
 
-        <div class="popup" id="popup"> <!-- OMG! -->
+        <div class="popup" id="popup">
             
             <div class="sonucKutusu">
 
