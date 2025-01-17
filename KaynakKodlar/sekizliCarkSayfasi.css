@@ -1,0 +1,354 @@
+body {
+
+    background-image: url("fotograflar/arkaPlan.jpg");
+    background-color: #74c28a;
+    background-size: cover;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 67px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header {
+
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 99.4%;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7ce73a;
+
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    cursor: pointer;
+
+}
+
+.iletisim {
+    cursor: pointer;
+}
+
+.kutu {
+
+    width: 60%;
+    min-width: 450px;
+    height: 450px;
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+
+    position: relative;
+
+    background-color: rgba(0, 0, 0, 0.065);
+    border-radius: 30px;
+    width: 412px;
+    height:412px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.wheel {
+
+    position: relative;
+
+    background-color: rgb(255, 255, 255);
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 400px;
+    height:400px;
+
+    display: flex;
+    overflow: hidden;
+    
+    font-size: 30px;
+
+    transition: transform 5s ease-in-out;
+    
+}
+
+.secenek1 {
+
+    position: absolute;
+
+    background-color: #ed8aff;
+    width: 175px;
+    height: 175px;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    clip-path: polygon(0 0, 58% 0, 98% 98%, 0 58%);
+    transform-origin: bottom right;
+    transform: rotate(0deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secenek2 {
+
+    position: absolute;
+
+    background-color: #fc8a7f;
+    width: 175px;
+    height: 175px;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    clip-path: polygon(0 0, 58% 0, 98% 98%, 0 58%);
+    transform-origin: bottom right;
+    transform: rotate(45deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secenek3 {
+
+    position: absolute;
+
+    background-color: #faae34;
+    width: 175px;
+    height: 175px;
+    padding-top: 25px;
+    padding-left: 25px;
+    clip-path: polygon(0 0, 58% 0, 98% 98%, 0 58%);
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secenek4 {
+
+    position: absolute;
+
+    background-color: #eacf36;
+    width: 175px;
+    height: 175px;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    clip-path: polygon(0 0, 58% 0, 98% 98%, 0 58%);
+    transform-origin: bottom right;
+    transform: rotate(135deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secenek5 {
+
+    position: absolute;
+
+    background-color: #75c94f;
+    width: 175px;
+    height: 175px;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    clip-path: polygon(0 0, 58% 0, 98% 98%, 0 58%);
+    transform-origin: bottom right;
+    transform: rotate(180deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secenek6 {
+
+    position: absolute;
+
+    background-color: #4dd6b8;
+    width: 175px;
+    height: 175px;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    clip-path: polygon(0 0, 58% 0, 98% 98%, 0 58%);
+    transform-origin: bottom right;
+    transform: rotate(225deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secenek7 {
+
+    position: absolute;
+
+    background-color: #60c2ef;
+    width: 175px;
+    height: 175px;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    clip-path: polygon(0 0, 58% 0, 98% 98%, 0 58%);
+    transform-origin: bottom right;
+    transform: rotate(270deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secenek8 {
+
+    position: absolute;
+
+    background-color: #8c98fe;
+    width: 175px;
+    height: 175px;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    clip-path: polygon(0 0, 58% 0, 98% 98%, 0 58%);
+    transform-origin: bottom right;
+    transform: rotate(315deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text {
+    transform: rotate(45deg);
+}
+
+.spinButton {
+
+    position: absolute;
+    z-index: 10;
+    
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    transition: transform 0.1s ease;
+
+}
+
+.spinButton:hover {
+    transform: scale(1.1);
+
+}
+
+.spinButton:active {
+    transform: scale(0.95);
+}
+
+.arrow {
+
+    position: absolute;
+    z-index: 10;
+    top: 80px;
+    right: 15px;
+
+}
+
+.popup {
+
+    position: fixed;
+    z-index: 20;
+
+    background-color: rgb(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+
+    display: none;
+
+}
+
+.sonucKutusu {
+
+    position: absolute;
+    z-index: 21;
+    top: 375px;
+    left: 50%;
+
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transform: translateX(-50%);
+
+}
+
+.closeButton {
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    cursor: pointer;
+
+}
