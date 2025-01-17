@@ -1,4 +1,3 @@
-<!-- OMG! -->
 <?php
     session_start(); 
 ?>
@@ -38,7 +37,7 @@
 
         <div class="kutu">
 
-            <form autocomplete="off" action="kayit.php" method="post"> <!-- OMG! -->
+            <form autocomplete="off" action="kayit.php" method="post"> 
 
                 <table>
 
@@ -98,7 +97,6 @@
 
         </div>
 
-        <!-- OMG! -->
         <?php
 
                 $servername = "localhost";
@@ -119,7 +117,7 @@
                 <i><b>Ziyaretçilerden Son Yorumlar ;</b></i>
             </div>
 
-            <div class="innerBox"> <!-- OMG! -->
+            <div class="innerBox">
 
                 <?php foreach ($veriler as $veri): ?>
 
@@ -155,7 +153,6 @@
 
 </html>
 
-<!-- OMG! -->
 <?php
 
     if (isset($_SESSION['success'])) {
