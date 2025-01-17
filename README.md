@@ -1,0 +1,2 @@
+# Tanıtım Videosu
+[İzleme İçin Tıklayın](https://www.youtube.com/watch?v=exAndzpA_SA)
