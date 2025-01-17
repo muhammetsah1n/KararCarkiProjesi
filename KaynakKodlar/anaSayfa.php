@@ -2,13 +2,13 @@
 
     <head>
 
-        <meta charset="UTF-8"> <!-- OMG! -->
+        <meta charset="UTF-8">
 
         <title>Karar Çarkı</title>
 
-        <link rel="icon" href="fotograflar/logoPng.png"> <!-- OMG! -->
-        <link rel="stylesheet" href="anaSayfa.css?v=<?php echo time(); ?>"> <!-- OMG! -->
-        <script src="anaSayfa.js?v=<?php echo time(); ?>" defer></script> <!-- OMG! -->
+        <link rel="icon" href="fotograflar/logoPng.png">
+        <link rel="stylesheet" href="anaSayfa.css?v=<?php echo time(); ?>"> 
+        <script src="anaSayfa.js?v=<?php echo time(); ?>" defer></script> 
 
     </head>
 
